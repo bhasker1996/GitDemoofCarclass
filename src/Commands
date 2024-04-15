@@ -43,3 +43,27 @@ key -> origin (This is what followed by most)
 git remote add origin <link>
 git remote add <key> <link>
 git push origin <branchName>(from which branch should i pickup the commits => that is what branchName here comes into picture).
+
+
+---------------------------------------------------------------------------------------------------------
+If i want to get info from remote to local.
+The merge happened in remote repository
+2ways
+
+1) git fetch -->  I will only download, not merge in local code ( you can merge manually if you want)
+(git fetch usage is like, if somebody has created and pushed the code and i just want to see that code in my local but not merged that).
+
+2) git pull  --> I will download, update your code [merge the remote changes into local].
+
+
+----------------------------------------------------------------------------------------------------------
+I want to raise the PR(pull request) ==> git clone
+
+Downloading the git repo -> very first time -> git clone <link>
+
+TASK
+1) git clone
+2) Create a new Feature branch
+3) Add a new Comparator for maxSpeed
+4) push the new branch
+5) create a PR
