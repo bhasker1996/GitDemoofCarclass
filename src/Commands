@@ -67,3 +67,12 @@ TASK
 3) Add a new Comparator for maxSpeed
 4) push the new branch
 5) create a PR
+
+
+------------------------------------------------------------------------------------------------------------
+Lets imagine -> remote : origin, branch : master
+git push origin master
+
+Default upstream -> git push -u origin master
+default -> remote: origin, branch : master
+git push [internally, git push origin master]
