@@ -37,3 +37,9 @@ The very first entry tthat you make for your remote repository, the name of the 
 
 key -> origin (This is what followed by most)
 
+-------------------------------------------------------------------------------------------------------
+--git remote
+
+git remote add origin <link>
+git remote add <key> <link>
+git push origin <branchName>(from which branch should i pickup the commits => that is what branchName here comes into picture).
