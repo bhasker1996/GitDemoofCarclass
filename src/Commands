@@ -16,3 +16,24 @@ git config -g user.email bhasker.medathati@gmail.com
 
 --- branching
 git branch
+git branch <branchName>
+git checkout <branchName>
+git merge <branchName>
+
+master -> fB
+git checkout -b branchName || create the branch and move to the new branch
+
+
+-------------------------------------------------------------------------------
+We can connect out local git repo to multiple remote repos
+In general its only 1 remote repo per local repo
+
+"name of remote repo[key]" -> "link"
+Its like github -> link1
+          gitlab -> link2
+          bitbucket -> link3
+
+The very first entry tthat you make for your remote repository, the name of the key is "origin".
+
+key -> origin (This is what followed by most)
+
