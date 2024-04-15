@@ -12,3 +12,7 @@ git config -g user.email bhasker.medathati@gmail.com
 
 ==> gitignore --> Basically add the files which we dont want to track in git. Let's say i dont want to track pdf files then go
                     to gitignore and write "*.pdf" so that it will ignore all the pdf files.
+
+
+--- branching
+git branch

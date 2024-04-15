@@ -7,6 +7,11 @@ public class Car
         return price;
     }
 
+    public Car(int price, int engineSize) {
+        this.price = price;
+        this.engineSize = engineSize;
+    }
+
     public void setPrice(int price) {
         this.price = price;
     }
@@ -17,5 +22,13 @@ public class Car
 
     public void setEngineSize(int engineSize) {
         this.engineSize = engineSize;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "price=" + price +
+                ", engineSize=" + engineSize +
+                '}';
     }
 }
